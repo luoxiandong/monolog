@@ -15,7 +15,7 @@
 			"file": "app.log",
 			"settings":
 			{
-				"buffer_size": 92,
+				"buffer_size": 690,
 				"line_ending": "Unix"
 			}
 		},
@@ -23,19 +23,64 @@
 			"file": "composer.json",
 			"settings":
 			{
-				"buffer_size": 255,
+				"buffer_size": 322,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<?php\n\n	require \"vendor/autoload.php\";\n	$log = new Monolog\\Logger('name');\n	$log->pushHandler(new Monolog\\Handler\\StreamHandler('app.log', Monolog\\Logger::WARNING));\n\n	$log->addWarning('Foo');\n\n	echo '>>>>>';\n\n",
-			"file": "index.php",
-			"file_size": 218,
-			"file_write_time": 131402428492746006,
+			"file": "/D/wamp/www/testcomporse/composer.json",
 			"settings":
 			{
-				"buffer_size": 210,
+				"buffer_size": 259,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index2.php",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vendor/composer/autoload_psr4.php",
+			"settings":
+			{
+				"buffer_size": 185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "composer.lock",
+			"settings":
+			{
+				"buffer_size": 2036,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/composer/autoload_classmap.php",
+			"settings":
+			{
+				"buffer_size": 147,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 233,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vendor/monolog/monolog/src/Monolog/Logger.php",
+			"settings":
+			{
+				"buffer_size": 10694,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -118,15 +163,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 92,
+						"buffer_size": 690,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								138,
+								138
 							]
 						],
 						"settings":
@@ -147,15 +192,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 255,
+						"buffer_size": 322,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								191,
+								262
 							]
 						],
 						"settings":
@@ -172,19 +217,76 @@
 				},
 				{
 					"buffer": 2,
-					"file": "index.php",
+					"file": "/D/wamp/www/testcomporse/composer.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 210,
+						"buffer_size": 259,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								74,
-								74
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index2.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "vendor/composer/autoload_psr4.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -195,6 +297,126 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "composer.lock",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1233,
+								1233
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 570.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "vendor/composer/autoload_classmap.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "vendor/monolog/monolog/src/Monolog/Logger.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -270,7 +492,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 283.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
